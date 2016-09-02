@@ -8,7 +8,7 @@ Direct and secure file-uploads to AWS S3, Google Cloud Storage and others.
 ## Install
 
 ```bash
-meteor add edgee:slingshot
+meteor add jamiesoncj:slingshot
 ```
 
 ## Why?
