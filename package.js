@@ -1,8 +1,9 @@
 Package.describe({
   name: "jamiesoncj:slingshot",
-  summary: "Directly post files to cloud storage services, such as AWS-S3.",
+  summary: "Directly post files to cloud storage services, such as AWS-S3, including SSE for S3",
   version: "0.7.2",
-  git: "https://github.com/jamiesoncj/meteor-slingshot"
+  git: "https://github.com/jamiesoncj/meteor-slingshot",
+  documentation: 'README.md',
 });
 
 Package.on_use(function (api) {

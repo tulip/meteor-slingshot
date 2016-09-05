@@ -11,6 +11,14 @@ Direct and secure file-uploads to AWS S3, Google Cloud Storage and others.
 meteor add jamiesoncj:slingshot
 ```
 
+## How is this different to [edgee:slingshot](https://atmospherejs.com/edgee/slingshot)
+This package includes the ability to upload files using AWS server-side encryption
+(SSE). I take no credit for the implementation - I have completely lifted this
+from [barnobi](https://github.com/barboni)'s [PR #111](https://github.com/CulturalMe/meteor-slingshot/pull/111)
+against [CulturalMe/meteor-slingshot](https://github.com/CulturalMe/meteor-slingshot).
+
+I simply merged the PR and packaged it up.
+
 ## Why?
 
 There are many many packages out there that allow file uploads to S3,
