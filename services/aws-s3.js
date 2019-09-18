@@ -10,7 +10,7 @@ Slingshot.S3Storage = {
     region: Match.Where(function (region) {
       check(region, String);
 
-      return /^[a-z]{2}-\w+-\d+$/.test(region);
+      return /^([a-z]{2}(-gov)?)-[a-z]+-[0-9]$/.test(region);
     }),
 
     AWSAccessKeyId: String,
