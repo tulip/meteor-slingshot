@@ -5,6 +5,11 @@ meteor-slingshot
 
 Direct and secure file-uploads to AWS S3, Google Cloud Storage and others.
 
+## Tulip Modification
+
+This is a fork of the original meteor-slingshot. Notable changes:
+- Adding PUT verb support - https://github.com/tulip/meteor-slingshot/pull/1
+
 ## Install
 
 ```bash
@@ -381,7 +386,7 @@ curl -I -X POST -H 'X-Auth-Token: yourAuthToken' \
 
 ### Cloudinary
 
-Cloudinary is supported via a 3rd party package.  
+Cloudinary is supported via a 3rd party package.
 [jimmiebtlr:cloudinary](https://atmospherejs.com/jimmiebtlr/slingshot-cloudinary)
 
 ## Browser Compatibility
